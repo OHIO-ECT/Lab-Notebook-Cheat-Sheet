@@ -1,34 +1,46 @@
-# **ECT/ITS Lab Notebook Cheatsheet** #
+# ECT/ITS Lab Notebook Cheatsheet
 
-## **VyOS Config** ##
+### VyOS Config
 
-Full VyOS 1.2x Guide -- it is really good and not too long.
+##### Full VyOS 1.2x Guide - it is really good and not too long.
 
-<https://docs.vyos.io/en/crux>
+> https://docs.vyos.io/en/crux
 
 Switch into configuration mode.
 
-`config`
+```
+config
+```
 
 Show Current Configuration
 
-`show`
+```
+show
+```
 
 Push the configuration to the interfaces
 
-`commit`
+```
+commit
+```
 
 Configure Interfaces
 
-`set interfaces ethernet eth1 address 132.235.160.X/28`
+```
+set interfaces ethernet eth1 address 132.235.160.X/28
+```
 
-Default Route - This only needs to be done **[once per router]**
+Default Route - This only needs to be done **once per router.**
 
-`set protocols static route 0.0.0.0/0 next-hop 132.235.160.14`
+```
+set protocols static route 0.0.0.0/0 next-hop 132.235.160.14
+```
 
 Static Route Update
 
-`set protocols static route 100.70.111.64/26 next-hop 100.70.111.241`
+```
+set protocols static route 100.70.111.64/26 next-hop 100.70.111.241
+```
 
 DNS Servers
 
@@ -56,19 +68,27 @@ set interfaces ethernet eth0 vif 100X address 192.168.11.254/24
 
 IPv6 Config Interface
 
-`set interfaces ethernet eth1 address 2610:a8:4831:3XY::1/64`
+```
+set interfaces ethernet eth1 address 2610:a8:4831:3XY::1/64
+```
 
 IPv6 Static Routing
 
-`set protocols static route6 ::/0 next-hop 2610:a8:4831:3XY::1`
+```
+set protocols static route6 ::/0 next-hop 2610:a8:4831:3XY::1
+```
 
 Show IPv6 Route table
 
-`show ipv6 route`
+```
+show ipv6 route
+```
 
 Config Name Server
 
-`set system name-server 2610:a8:4831:310::1`
+```
+set system name-server 2610:a8:4831:310::1
+```
 
 Configure IPv6 RA
 
@@ -76,8 +96,10 @@ Configure IPv6 RA
 set interfaces ethernet eth1 ipv6 router-advert prefix 2610:a8:4831:3XY::/64
 set interfaces ethernet eth1 ipv6 router-advert name-server 2610:a8:4831:310::1
 ````
-Advanced Config Commands\
-`show system | commands `
+Advanced Config Commands
+```
+show system | commands
+```
 
 Ubuntu-CLI
 ````

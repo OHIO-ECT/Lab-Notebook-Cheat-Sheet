@@ -59,6 +59,13 @@ set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 dns
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 lease 120
 ````
 
+Network Address Translation
+````
+set nat source rule 100 outbound-interface eth0
+set nat source rule 100 source address 172.X.Y.Z/S
+set nat source rule 100 translation address masquerade
+````
+
 VyOS VLAN Interfaces
 
 ````
@@ -103,10 +110,14 @@ show system | commands
 
 Ubuntu-CLI
 ````
+sudo nmcli general hostname <PICK A HOSTNAME>
 sudo nmcli con mod "Wired connection 1" ipv4.method manual
 sudo nmcli con mod "Wired connection 1" ipv4.addresses X.X.X.X/Y
 sudo nmcli con mod "Wired connection 1" ipv4.gateway X.X.X.G
 sudo nmcli con mod "Wired connection 1" ipv4.dns D.D.D.D
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+
 ````
 
 ## **IPv4 Quick Subnetting Table** ## 

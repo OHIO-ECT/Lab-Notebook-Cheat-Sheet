@@ -2,9 +2,7 @@
 
 ### VyOS Config
 
-##### Full VyOS 1.2x Guide - it is really good and not too long.
-
-> https://docs.vyos.io/en/crux
+##### VyOS 1.3.1 User Guide - https://docs.vyos.io/en/equuleus - it is really good and not too long.
 
 Switch into configuration mode.
 

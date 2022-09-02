@@ -55,8 +55,8 @@ DHCP Server
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 range 0 start 192.168.12.1
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 range 0 stop 192.168.12.50
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 default-router 192.168.12.254
-set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 dns-server 132.235.9.75
-set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 dns-server 132.235.200.41
+set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 name-server 132.235.9.75
+set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 name-server 132.235.200.41
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 lease 120
 ````
 

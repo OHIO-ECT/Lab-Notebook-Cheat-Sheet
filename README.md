@@ -59,6 +59,10 @@ set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 nam
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 name-server 132.235.200.41
 set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 lease 120
 ````
+Show DHCP Leases
+````
+show log dhcp client
+````
 
 Network Address Translation
 ````

@@ -61,7 +61,7 @@ set service dhcp-server shared-network-name SUB1_POOL subnet 192.168.12.0/24 lea
 ````
 Show DHCP Leases
 ````
-show log dhcp client
+show dhcp server leases
 ````
 
 Network Address Translation

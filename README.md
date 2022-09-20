@@ -105,8 +105,8 @@ set system name-server 2610:a8:4831:310::1
 Configure IPv6 RA
 
 ````
-set interfaces ethernet eth1 ipv6 router-advert prefix 2610:a8:4831:3XY::/64
-set interfaces ethernet eth1 ipv6 router-advert name-server 2610:a8:4831:310::1
+set service router-advert interface ethY prefix 2610:a8:483f:XXXX::/64
+set service router-advert interface ethY name-server 2001:4860:4860::8888
 ````
 Advanced Config Commands
 ```

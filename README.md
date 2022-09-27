@@ -118,7 +118,7 @@ Ubuntu-CLI
 sudo nmcli general hostname <PICK A HOSTNAME>
 sudo nmcli con mod "Wired connection 1" ipv4.addresses X.X.X.X/Y
 sudo nmcli con mod "Wired connection 1" ipv4.gateway X.X.X.G
-sudo nmcli con mod "Wired connection 1" ipv4.dns D.D.D.D
+sudo nmcli con mod "Wired connection 1" ipv4.dns D.D.D.D,S.S.S.S
 sudo nmcli con mod "Wired connection 1" ipv4.method manual
 sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"

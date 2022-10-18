@@ -78,6 +78,20 @@ set interfaces ethernet eth0 vif 310 address 132.235.160.1/28
 set interfaces ethernet eth0 vif 100X address 192.168.11.254/24
 ````
 
+VyOS VPN Sample Commands
+```
+set interfaces openvpn vtun1 local-address <VyOS-1 vtun1 IP> subnet-mask <VyOS-1 vtun1 mask>
+set interfaces openvpn vtun1 local-host 10.101.100.X
+set interfaces openvpn vtun1 local-port 1195
+set interfaces openvpn vtun1 mode site-to-site
+set interfaces openvpn vtun1 remote-address <VyOS-2 vtun1 IP>
+set interfaces openvpn vtun1 remote-host 132.235.160.X
+set interfaces openvpn vtun1 remote-port 1195
+set interfaces openvpn vtun1 shared-secret-key-file /config/auth/openvpn-1.key
+set interfaces openvpn vtun1 protocol udp
+set interfaces openvpn vtun1 persistent-tunnel
+```
+
 IPv6 Config Interface
 
 ```

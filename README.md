@@ -6,7 +6,7 @@ The last usable IP in a network is the gateway.
 ### Wireshark
 Display Filter
 ```
-ip.addr ==
+ip.addr==X.X.X.X
 ```
 
 ### VyOS Config

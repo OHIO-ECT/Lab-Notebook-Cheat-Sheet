@@ -1,4 +1,6 @@
+## GNS3 Updating Template VMs
 
+If you are here you have either clicked on something that you shouldn't have or you have need to change the BASE functionality of a GNS3 VM. This is dangrous stuff. If you screw it up it the fix may require wiping the entire gHost machine back to a "like-new" state (i.e. you'll loose any data saved on the gHost machine).
 
 1. Updating VyOS GNS3 Template - **DO THIS PART DURING THE CLASS WORKSHOP!** - Open GNS3 and start a blank project. And take the following actions.
 

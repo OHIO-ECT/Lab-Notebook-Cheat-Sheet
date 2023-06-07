@@ -145,7 +145,7 @@ sudo nmcli connection up "Wired connection 1"
 
 ````
 
-Common Network Diagnostic Commands
+#### Common Network Diagnostic Commands
 `ipconfig /all` - [Windows] Used to display basic network card configuration information on Windows.
 
 `ping` - [All] Used to check if a host is reachable across a network or to display the round-trip time for information traveling to or from the host
@@ -158,7 +158,7 @@ Common Network Diagnostic Commands
 
 `nslookup` - [All] Also used to convert hostnames to IPv4 addresses. A deprecated version of this command still exists in most major operating systems.
 
-IPv4 Quick Subnetting Table
+#### IPv4 Quick Subnetting Table
 | Slash   | Dotted Decimal    | Total IPs
 |---      |--                 |--
 | /22     | 255.255.252.0     | 1024

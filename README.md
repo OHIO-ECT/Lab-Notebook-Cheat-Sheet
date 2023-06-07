@@ -146,17 +146,12 @@ sudo nmcli connection up "Wired connection 1"
 ````
 
 #### Common Network Diagnostic Commands
-`ipconfig /all` - [Windows] Used to display basic network card configuration information on Windows.
-
-`ping` - [All] Used to check if a host is reachable across a network or to display the round-trip time for information traveling to or from the host
-
+`ipconfig /all` - [Windows] Used to display basic network card configuration information on Windows
+`ping` - Used to check if a host is reachable across a network or to display the round-trip time for information traveling to or from the host
 `traceroute` [Linux] or `tracert` [Windows] - Used to display the IP addresses and/or host names of all the routers between your host and another host, including round trip times to each of the intermediate routers. Nearly always use the -d [Windows] or -n option [Linux] to disable DNS resolution.
-
 `netstat` [Windwos] or `ss` - [Linux] Used to display the Network status information for your particular host operating system. This can include existing network connections as well as routing information (i.e. how to reach other hosts if more than one network interface exists on the host)
-
-`dig` - [All] Used to convert host names to IPv4 addresses or vice-versa. Web version: http://digwebinterface.com
-
-`nslookup` - [All] Also used to convert hostnames to IPv4 addresses. A deprecated version of this command still exists in most major operating systems.
+`dig` - Used to convert host names to IPv4 addresses or vice-versa. Web version: http://digwebinterface.com
+`nslookup` - Also used to convert hostnames to IPv4 addresses. A deprecated version of this command still exists in most major operating systems
 
 #### IPv4 Quick Subnetting Table
 | Slash   | Dotted Decimal    | Total IPs

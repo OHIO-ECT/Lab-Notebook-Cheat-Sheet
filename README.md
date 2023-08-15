@@ -38,10 +38,16 @@ Push the configuration to the interfaces
 commit
 ```
 
+Set Hostname
+```
+set system host-name VyOS-1
+```
+
 Configure Interfaces
 
 ```
-set interfaces ethernet eth1 address 132.235.160.X/28
+set interfaces ethernet eth0 address 132.235.160.X/28
+set interfaces ethernet eth0 description WAN
 ```
 
 Default Route - This only needs to be done **once per router.**

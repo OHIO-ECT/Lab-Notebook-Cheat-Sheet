@@ -50,6 +50,12 @@ set interfaces ethernet eth0 address 132.235.160.X/28
 set interfaces ethernet eth0 description WAN
 ```
 
+Show IPv4 Route table
+
+```
+show ip route
+```
+
 Default Route - This only needs to be done **once per router.**
 
 ```

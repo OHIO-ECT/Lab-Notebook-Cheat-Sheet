@@ -16,6 +16,7 @@ ip.addr==X.X.X.X
 - `tnc` [Windows/PowerShell] aka Test Network Connection has many of the features of ipconfig, Ping and Traceroute in one app. For a list of features use `man tnc` (Note: ONLY works in a PowerShell window).
 - `dig` - Used to convert host names to IPv4 addresses or vice-versa. Web version: http://digwebinterface.com
 - `nslookup` - Also used to convert hostnames to IPv4 addresses. A deprecated version of this command still exists in most major operating systems
+- `Resolve-DNSName` [Windows/PowerShell] converts hostnames to IPs 
 
 ### VyOS Config
 

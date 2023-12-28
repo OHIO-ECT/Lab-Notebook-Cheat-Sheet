@@ -4,8 +4,8 @@
 These conventions MUST be used for IP address assignment. These conventions will be in effect for all assignments for the entire semester.
 - A. Default Gateway (Router) will use the last usable address in the IP Network
 - B. All other static assigned IPs (including other routers that are not the default gateway) start at the beginning of the range
-- C. DHCP pools between the statically addressed clients and the Default Gateway
-- D. Unless stated otherwise use the following DNS Name servers: 132.235.9.75, 132.235.200.41
+- C. DHCP pools are between the statically addressed clients and the Default Gateway
+- D. Unless indicated otherwise use the following DNS Name servers: 132.235.9.75, 132.235.200.41
 
 ### Wireshark
 Display Filter

@@ -196,7 +196,7 @@ sudo nmcli connection up "Wired connection 1"
 
 - **Host** - A computer or other device that generates packets and transmits them to other hosts on a network (LAN or WAN). Hosts often include clients and servers that send or receive data, services and applications. Hosts are not network devices like switches and routers, which are categorized as network nodes.
 
-- **GNS3** - GNS3 is application that run in the gHost (like MS-Word runs in/on Windows). It allows the combination of virtual and real devices, used to simulate complex networks. It can also be used to experiment features or to check configurations that need to be deployed later on real devices.
+- **GNS3** - GNS3 is application that run in the gHost (like MS-Word runs in Windows). It allows the combination of virtual and real devices, used to simulate complex networks. It can also be used to experiment features or to check configurations that need to be deployed later on real devices.
 
 - **Virtual Machine** - A virtual machine (VM) is an emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.
 

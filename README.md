@@ -24,7 +24,7 @@ ip.addr==X.X.X.X
 
 ### VyOS Config
 
-##### VyOS 1.3.1 User Guide - https://docs.vyos.io/en/equuleus - it is really good and not too long.
+##### VyOS 1.3.X User Guide - https://docs.vyos.io/en/equuleus - it is really good and not too long.
 
 Switch into configuration mode.
 
@@ -190,3 +190,22 @@ sudo nmcli connection up "Wired connection 1"
 | /30     | 255.255.255.252   | 4
 | /31     | 255.255.255.254   | 2
 | /32     | 255.255.255.255   | 1
+
+
+#### Vernacular and Definitions
+
+- **Host** - A computer or other device that generates packets and transmits them to other hosts on a network (LAN or WAN). Hosts often include clients and servers that send or receive data, services and applications. Hosts are not network devices like switches and routers, which are categorized as network nodes.
+
+- **GNS3** - GNS3 is application that run in the gHost (like MS-Word runs in/on Windows). It allows the combination of virtual and real devices, used to simulate complex networks. It can also be used to experiment features or to check configurations that need to be deployed later on real devices.
+
+- **Virtual Machine** - A virtual machine (VM) is an emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.
+
+- **Command Line Interface** - A command-line interface (CLI) processes commands to a computer program in the form of lines of text. The program which handles the interface is called a command-line interpreter or command-line processor. Operating systems implement a command-line interface in a shell for interactive access to operating system functions or services. Such access was primarily provided to users by computer terminals starting in the mid-1960s, and continued to be used throughout the 1970s and 1980s on VAX/VMS, Unix systems and personal computer systems including MS-DOS, CP/M and Apple DOS.
+
+- **Graphical User Interface** - A graphical user interface (GUI) is a user interface that includes graphical elements, such as windows, icons and buttons. The term was created in the 1970s to distinguish graphical interfaces from text-based ones, such as command line interfaces. However, today nearly all digital interfaces are GUIs.
+
+- **Network Interface Card** - A network interface controller (NIC, also known as a network interface card, network adapter, LAN adapter or physical network interface, and by similar terms) is a computer hardware component that connects a computer to a computer network.
+
+- **Secure Shell (SSH)** - Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH. SSH provides a secure channel over an unsecured network by using a client–server architecture, connecting an SSH client application with an SSH server. The protocol specification distinguishes between two major versions, referred to as SSH-1 and SSH-2. The standard TCP port for SSH is 22. SSH is generally used to access Unix-like operating systems, but it can also be used on Microsoft Windows. Windows 10 uses OpenSSH as its default SSH client and SSH server.
+
+

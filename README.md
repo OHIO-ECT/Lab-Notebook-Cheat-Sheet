@@ -208,4 +208,4 @@ sudo nmcli connection up "Wired connection 1"
 
 - **Secure Shell (SSH)** - Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH. SSH provides a secure channel over an unsecured network by using a client–server architecture, connecting an SSH client application with an SSH server. The protocol specification distinguishes between two major versions, referred to as SSH-1 and SSH-2. The standard TCP port for SSH is 22. SSH is generally used to access Unix-like operating systems, but it can also be used on Microsoft Windows. Windows 10 uses OpenSSH as its default SSH client and SSH server.
 
-
+- **Router** - A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. Packets are typically forwarded from one router to another router through the networks that constitute an internetwork (e.g. the Internet) until it reaches its destination host.

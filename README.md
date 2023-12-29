@@ -204,7 +204,7 @@ sudo nmcli connection up "Wired connection 1"
 
 - **Graphical User Interface** - A graphical user interface (GUI) is a user interface that includes graphical elements, such as windows, icons and buttons. The term was created in the 1970s to distinguish graphical interfaces from text-based ones, such as command line interfaces. However, today nearly all digital interfaces are GUIs.
 
-- **Network Interface Card** - A network interface controller (NIC, also known as a network interface card, network adapter, LAN adapter or physical network interface, and by similar terms) is a computer hardware component that connects a computer to a computer network.
+- **Network Interface Card** - A network interface controller (NIC, also known as a network interface card, network adapter, ethernet card, LAN adapter or physical network interface, and several other similar terms) is the Layer 1 computer hardware component that connects a computer to a computer network (can be wired or wireless).
 
 - **Secure Shell (SSH)** - Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line, login, and remote command execution, but any network service can be secured with SSH. SSH provides a secure channel over an unsecured network by using a client–server architecture, connecting an SSH client application with an SSH server. The protocol specification distinguishes between two major versions, referred to as SSH-1 and SSH-2. The standard TCP port for SSH is 22. SSH is generally used to access Unix-like operating systems, but it can also be used on Microsoft Windows. Windows 10 uses OpenSSH as its default SSH client and SSH server.
 

@@ -169,7 +169,7 @@ sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
 
 #Optional IPv6 configurations
-sudo nmcli con mod "Wired connection 1" ipv6.addresses 2610:a8:483f:m::n/64
+sudo nmcli con mod "Wired connection 1" ipv6.addresses 2610:a8:x:y::n/64
 sudo nmcli con mod "Wired connection 1" ipv6.gateway 2610:a8:483f:m::1
 sudo nmcli con mod "Wired connection 1" ipv6.dns 2610:a8:483f:300::10,2610:a8:483f:300::11
 sudo nmcli con mod "Wired connection 1" ipv6.method manual

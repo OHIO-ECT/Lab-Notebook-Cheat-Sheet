@@ -13,7 +13,7 @@ If you are here you have either clicked on something that you shouldn't have or 
 ```
 config
 del interfaces 
-set interfaces ethernet eth0 address dhcp
+set interfaces ethernet eth7 address dhcp
 commit
 save
 exit

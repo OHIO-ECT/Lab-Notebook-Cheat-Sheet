@@ -8,8 +8,8 @@ These conventions MUST be used for IP address assignment. These conventions will
 - D. Unless indicated otherwise use the following DNS Name servers: 132.235.9.75, 132.235.200.41
 
 ### IPv4 Subnet calculator and resources
-[IPv4 Calculator](https://www.its.ohio.edu/ipcalc/)
-[IPv4 RandoNet](https://www.its.ohio.edu/randonet/)
+- [IPv4 Calculator](https://www.its.ohio.edu/ipcalc/)
+- [IPv4 RandoNet](https://www.its.ohio.edu/randonet/)
 
 ### Wireshark
 Display Filter

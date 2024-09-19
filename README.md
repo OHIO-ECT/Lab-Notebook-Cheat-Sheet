@@ -181,6 +181,16 @@ sudo nmcli con mod "Wired connection 1" ipv6.method manual
 sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
 ````
+VPCS configuration
+```
+ip <IP_ADDR>/<NETMASK> <GATEWAY>
+```
+or
+```
+ip <IP_ADDR> <NETMASK> <GATEWAY>
+```
+
+
 #### IPv4 Quick Subnetting Table
 | Slash   | Dotted Decimal    | Total IPs
 |---      |--                 |--

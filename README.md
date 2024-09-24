@@ -102,7 +102,7 @@ show dhcp server leases
 Network Address Translation
 ````
 set nat source rule 100 source address 172.X.Y.Z/S
-set nat source rule 100 outbound-interface eth0
+set nat source rule 100 outbound-interface name eth0
 set nat source rule 100 translation address masquerade
 ````
 

@@ -155,7 +155,7 @@ Configure IPv6 RA
 
 ````
 set service router-advert interface ethY prefix 2610:a8:483f:XXXX::/64
-set service router-advert interface ethY name-server 2001:4860:4860::8888
+set service router-advert interface ethY name-server 2610:a8:483f:300::10
 ````
 Advanced Config Commands
 ```
